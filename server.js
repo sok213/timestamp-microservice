@@ -1,7 +1,7 @@
 var http = require('http'),
 	fs = require('fs'),
 	url = require('url'),
-	port = 8080;
+	port = process.env.PORT || 8080;
 
 function onRequest(request, response) {
 	//Declare necessary timestamp variables.
