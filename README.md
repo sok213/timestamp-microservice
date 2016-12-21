@@ -18,4 +18,4 @@
 
 #### Example output
 
-`{"unix":1252713600,"natural":"September 12, 2009"}`
+`{"unix":1288681200,"natural":"November 2, 2010"}`
