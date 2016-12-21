@@ -62,7 +62,6 @@ function convertNaturalUnix(unix) {
 		day = unixArr[1].substring(unixArr[1].length-2, unixArr[1].length),
 		year = unixArr[2].substring(unixArr[2].length-4),
 		formattedUnix = month + ' ' + day + ', ' + year;
-		console.log(year);
 		return formattedUnix;
 	}
 }
