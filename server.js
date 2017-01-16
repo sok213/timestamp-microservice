@@ -28,7 +28,7 @@ function onRequest(request, response) {
 	}
 
 	//Sets the response type.
-	response.writeHead(200, {'Content-Type': 'text/plain'});
+	response.writeHead(200, {'Content-Type': 'application/json'});
 
 	//Checks type of url format to set the dateObject for response.
 	if(naturalUnix !== undefined) {
