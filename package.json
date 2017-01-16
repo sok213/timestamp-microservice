@@ -1,6 +1,5 @@
 {
-<<<<<<< HEAD
-  "name": "timestamp",
+  "name": "simpletimestamp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,26 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "url": "^0.11.0"
-=======
-  "name": "url-shortener",
-  "version": "1.0.0",
-  "description": "URL shortener Microservice",
-  "main": "index.js",
-  "scripts": {
-    "build": "babel --presets es2015 server.js -d dist",
-    "start": "node dist/server.js"
-  },
-  "author": "Sophanarith Sok",
-  "license": "ISC",
-  "dependencies": {
-    "babel-core": "^6.21.0",
-    "babel-preset-es2015": "^6.18.0",
-    "mongodb": "^2.2.16",
-    "url": "^0.11.0"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.18.0",
-    "babel-preset-es2015": "^6.18.0"
->>>>>>> 6a08947bac63f29f2f9a5c476f41168b007c1698
   }
 }
